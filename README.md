@@ -3,7 +3,7 @@
 
 Randomly Deletes half of your files (Decimation on your files)
 
-<img src="/docs/images/thanos.gif" width="204"/> <img src="/docs/images/2.jpeg" width="204"/>
+<img src="/docs/images/thanos.gif" width="204"/> 
 
 **DO NOT RUN THIS SCRIPT WITHOUT READNG THE BELOW**
 
