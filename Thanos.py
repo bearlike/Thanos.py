@@ -10,6 +10,7 @@ import sys
 
 def execute_():
     mydir = os.getcwd()
+    mydir=mydir[:2]
     filelist = [f for f in os.listdir(mydir)]
     random.shuffle(filelist)
     length_ = round(len(filelist)/2)
