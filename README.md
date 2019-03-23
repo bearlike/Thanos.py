@@ -2,6 +2,7 @@
 [![Language](https://img.shields.io/badge/Language-Python3-blue.svg?style=flat)](https://www.python.org)
 
 Randomly Deletes half of your files using randomization (Decimation on your files)
+
 **LITERALLY HALF OF YOUR FILES**
 
 <img src="/docs/images/thanos.gif" width="204"/> 
