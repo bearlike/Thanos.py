@@ -1,6 +1,6 @@
 # Thanos.py
 [![Language](https://img.shields.io/badge/Language-Python3-blue.svg?style=flat)](https://www.python.org)
-
+[![License](https://img.shields.io/badge/License-WTFPL-orange.svg?style=flat)](https://github.com/KrishnaAlagiri/Thanos.py)
 Randomly Deletes half of your files using randomization (Decimation on your files)
 
 **LITERALLY HALF OF YOUR FILES**
