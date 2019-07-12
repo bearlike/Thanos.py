@@ -1,5 +1,4 @@
 <h1 align="center">
-  <br>
   <img src="http://cdn.thekrishna.in/img/common/thanos.png" alt="Thanos.py" width="800">
   <br>
 </h1>
@@ -16,8 +15,9 @@
   <img src="/docs/images/thanos.gif" width="204"/> 
 </p>
 
-
-**DO NOT RUN THIS SCRIPT WITHOUT READNG THE BELOW**
+<h4 align="center">
+  DO NOT RUN THIS SCRIPT WITHOUT READNG THE BELOW
+</h4>
 
 ## Disclaimer
 I shall not be liable for any consequential, incidental, direct, indirect, special, or other damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or other pecuniary loss).
